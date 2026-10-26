@@ -19,7 +19,7 @@ Ablauf:
 6. **Messung und Auswertung:** Der häufigste Bitstring wird in Sudoku-Werte umgewandelt und klassisch mit `valid_sudoku` geprüft.
 ## Voraussetzungen
  
-- Python 3.10 oder neuer (getestet mit Python 3.14)
+- Python 3.10 oder neuer (getestet mit Python 3.14.3)
 - Pakete: siehe `requirements.txt`
 ## Installation
  
@@ -88,11 +88,3 @@ Grover-Iterationen: 3
 - Hat ein Puzzle mehrere Lösungen, liefert die Messung eine davon (die häufigste).
 - Das Projekt läuft nur im Simulator. Für echte Quantenhardware wäre der Schaltkreis zu tief und zu groß.
 - Die Simulation nutzt die Matrix-Product-State-Methode. Die Laufzeit kann bei vielen Iterationen deutlich steigen.
-## Lizenz
- 
-Dieses Projekt steht unter der MIT-Lizenz (siehe `LICENSE`).
- 
-## Autor
- 
-DEIN NAME
- 
